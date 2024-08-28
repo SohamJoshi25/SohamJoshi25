@@ -1,7 +1,7 @@
 <h1 align="center">Hello 👋, I'm Soham Joshi</h1>
 <h3 align="center">I am a passionate developer and i like to build projects which upskill me .Finding and solving Real-life problems is something i really enjoy. Looking forward for more opportunities and exploring domains.</h3>
 
-- 🔭 I’m currently working on **AI and ML Projects**
+- 🔭 I’m currently working on **AI and ML Projects** and **React**
 
 - 🌱 I’m currently learning **Machine Learning and AI.**
 
