@@ -9,7 +9,7 @@
 
 - 🤝 I’m passionate about **Competitive Programming**
 
-- 💬 Ask me about **Java , React, Next**
+- 💬 Ask me about **Java , React, Next, Express, MongoDB**
 
 - 📫 How to reach me **sohamjoshi.official@gmail.com**
 
