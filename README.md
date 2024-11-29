@@ -1,5 +1,6 @@
 # 💫 About Me:
-Hey, I am Soham Joshi, welcome to my Github Profile. Feel Free to explore my repositories you can dive into my various projects. Exploring more opportunities to collaborate so feel free to connect.
+<h2>
+Hey, I am Soham Joshi, welcome to my Github Profile. Feel Free to explore my repositories you can dive into my various projects. Exploring more opportunities to collaborate so feel free to connect.</h2>
 <br> 
 
 🔭 I’m currently working on AI and ML Projects and React<br>🌱 I’m currently learning Machine Learning and AI.<br>👯 I’m looking to collaborate on Full-Stack Development , Competitive Programing<br>🤝 I’m passionate about Competitive Programming<br>💬 Ask me about Java , React, Next, Express, MongoDB<br>📫 How to reach me sohamjoshi.official@gmail.com
