@@ -27,7 +27,7 @@ const Home = () => {
                 <a href="https://leetcode.com/u/SohamJoshi25/" title="Visit my Leetcode Profile" target="_blank" referrerPolicy="origin" className="text-blue-600">Leetcode</a>
                 </li>
                 <li>
-                <a href="https://www.codechef.com/users/sohamjoshi25" title="Visit my Codechef Page" target="_blank" referrerPolicy="origin" className="text-blue-600">Mail : sohamjoshi.official@gmail.com</a>
+                <a href="https://www.codechef.com/users/sohamjoshi25" title="Visit my Codechef Page" target="_blank" referrerPolicy="origin" className="text-blue-600">Codechef</a>
                 </li>
                 <li>
                 <a href="mailto:sohamjoshi.official@gmail.com" title="Email me here" target="_blank" referrerPolicy="origin" className="text-blue-600">sohamjoshi.official@gmail.com</a>
