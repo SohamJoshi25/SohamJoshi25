@@ -1,7 +1,7 @@
 const Home = () => {
     return (
         <div className="bg-slate-100 flex items-center justify-center h-[100vh] w-[100vw] px-20" >
-            <div className="flex items-start flex-col ">
+            <div className="flex items-start flex-col pb-[10vh]">
 
             <h2 className="block text-lg mb-5">
                 Hey, this is <span className="mx-1 text-2xl text-nowrap">Soham Joshi</span>.
@@ -24,10 +24,13 @@ const Home = () => {
                 <a href="https://github.com/SohamJoshi25" title="Visit my Github Page" target="_blank" referrerPolicy="origin" className="text-blue-600">Github</a>
                 </li>
                 <li>
-                <a href="https://leetcode.com/u/SohamJoshi25/" title="Visit my Github Page" target="_blank" referrerPolicy="origin" className="text-blue-600">Leetcode</a>
+                <a href="https://leetcode.com/u/SohamJoshi25/" title="Visit my Leetcode Profile" target="_blank" referrerPolicy="origin" className="text-blue-600">Leetcode</a>
                 </li>
                 <li>
-                <a href="mailto:sohamjoshi.official@gmail.com" title="Visit my Github Page" target="_blank" referrerPolicy="origin" className="text-blue-600">Mail : sohamjoshi.official@gmail.com</a>
+                <a href="https://www.codechef.com/users/sohamjoshi25" title="Visit my Codechef Page" target="_blank" referrerPolicy="origin" className="text-blue-600">Mail : sohamjoshi.official@gmail.com</a>
+                </li>
+                <li>
+                <a href="mailto:sohamjoshi.official@gmail.com" title="Email me here" target="_blank" referrerPolicy="origin" className="text-blue-600">sohamjoshi.official@gmail.com</a>
                 </li>
             </div>
 
