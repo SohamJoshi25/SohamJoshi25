@@ -1,16 +1,16 @@
 const Home = () => {
     return (
-        <div className="bg-slate-100 flex items-center justify-center h-[100vh] w-[100vw]" >
+        <div className="bg-slate-100 flex items-center justify-center h-[100vh] w-[100vw] px-20" >
             <div className="flex items-start flex-col ">
 
             <h2 className="block text-lg mb-5">
-                Hey, This is <span className="mx-1 text-2xl">Soham Joshi</span>.
-                <p className=" text-sm w-[70ch] pl-3 mt-3">
+                Hey, this is <span className="mx-1 text-2xl text-nowrap">Soham Joshi</span>.
+                <p className=" text-sm max-w-[70ch] mt-3">
                 I am a passionate developer ( thats what they all say lol ). I like to keep myself busy in various projects and stuff. Love to collaberate and work efficiently.
                 </p>
             </h2>
 
-            <h2 className="block mb-14 text-sm pl-3">
+            <h2 className="block mb-14 text-sm">
                 Currently this website is under <b>development</b>. Thanks for visiting.
             </h2>
 
