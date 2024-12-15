@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.noto-sans-450 {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+::selection {
+  background-color: #373737;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background-color: #373737;
+  color: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+
+/* width */
+.customScrollBar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+.customScrollBar::-webkit-scrollbar-track {
+    background:"#E6E6E6";
+}
+
+/* Handle */
+.customScrollBar::-webkit-scrollbar-thumb {
+    background: #2C2C2C;
+    border-radius:4px;
+}
+
+
+.text-gradiant {
+  background: linear-gradient(to right, #000000, #303030);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.text-gradiant ::selection {
+  -webkit-text-fill-color: #FFFFFF;
+  background: "#FFFFFF";
+  -webkit-background-clip: text;
+}

@@ -6,12 +6,11 @@ import Home from './pages/home/Home.tsx'
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="*" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
-
+      <BrowserRouter>
+        <Routes>
+          <Route path="/*" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
   )
 }
 
