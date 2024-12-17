@@ -56,3 +56,15 @@
   background: "#FFFFFF";
   -webkit-background-clip: text;
 }
+
+.text-gradiant-dark {
+  background: linear-gradient(to right, #FFFFFF, #DADADA);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.text-gradiant-dark ::selection {
+  -webkit-text-fill-color: #000000;
+  background: "#000000";
+  -webkit-background-clip: text;
+}

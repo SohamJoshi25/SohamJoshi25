@@ -22,7 +22,7 @@ const Home = () => {
             <Experience forwardRef={ExperienceRef}/>
             <Project forwardRef={ProjectRef}/>
             <Contactme forwardRef={ContactRef}/>
-            <Footer/>
+            <Footer AboutRef={AboutmeRef} ExperienceRef={ExperienceRef} ProjectRef={ProjectRef}/>
         </div>
     )
 }
