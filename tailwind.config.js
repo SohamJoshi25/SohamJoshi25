@@ -6,7 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      ffontSize: {
+      screens:{
+        'sm': '425px',
+        'xs': '360px'
+      },
+      fontSize: {
         sm: '0.750rem',
         base: '1rem',
         xl: '1.333rem',

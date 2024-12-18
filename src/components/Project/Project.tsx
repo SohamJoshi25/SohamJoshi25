@@ -13,7 +13,7 @@ const Project : React.FC<ProjectType> = ({forwardRef}) => {
           <span className="text-[63px] noto-sans-450" style={{"fontWeight":"500"}}>Projects</span>
         </div> 
         
-        <div className="flex flex-col justify-center gap-y-[220px] w-[61%]">
+        <div className="flex flex-col justify-center md:gap-y-[220px] gap-y-[140px] md:w-[61%] w-[78%]">
           {Array.from({ length: 4 }, (_, idx) => (
             <ProjectCard key={idx} index={idx} />
           ))}
