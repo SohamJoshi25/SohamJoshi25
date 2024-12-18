@@ -13,7 +13,7 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
     const Dimensions = useWindowDimensions();
 
   return (
-    <div className="flex justify-center max-[575px]:items-center  bg-blue-500 pt-[30px] pb-[35px] min-[575px]:flex-row flex-col-reverse " ref={forwardRef}>
+    <div className="flex justify-center max-[575px]:items-center  bg-[#2BA7FF] pt-[30px] pb-[35px] min-[575px]:flex-row flex-col-reverse " ref={forwardRef}>
 
         <div className="z-30 p-[5px] min-[575px]:pl-[70px]">
             {Dimensions.width>=575 && <div className="lg:text-[58px] md:text-[40px] sm:text-[30px] text-[1.5rem] w-fit font-[500] text-gradiant lg:leading-[74px]">

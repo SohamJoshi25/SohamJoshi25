@@ -21,6 +21,7 @@ const Contactme : React.FC<ContactType> = ({forwardRef}) => {
     const onSubmit  = async () => {
 
       if(loading)return;
+      setLoading(true);
 
       if(error){
         toast.error("Please try later or directly email me");
