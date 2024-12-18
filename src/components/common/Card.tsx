@@ -43,7 +43,7 @@ export const ProjectCard : React.FC<CardType> = ({index}) => {
                 </p>
   
                 <div className="w-full m-auto">
-                    <Button Text={"View My Work"} Style={"w-fit  max-[575px]:m-auto"}/>
+                    <Button Text={"View My Work"} Style={"w-fit  max-[575px]:m-auto border border-[1.8px]"}/>
                 </div>
           </div>
       </div>
