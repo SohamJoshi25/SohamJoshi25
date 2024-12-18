@@ -2,6 +2,9 @@
 import { useState } from "react"
 import Button from "../common/Button"
 
+//Utils
+import sendEmail from "./utils/EmailSender"
+import { toast } from "react-toastify"
 
 type ContactType = {
   forwardRef:React.RefObject<HTMLDivElement>
@@ -12,12 +15,30 @@ const Contactme : React.FC<ContactType> = ({forwardRef}) => {
     const [name,setName] = useState("")
     const [contact, setContact] = useState("")
     const [message, setMessage] = useState("")
+    const [error,setError] = useState<boolean>(false);
+    const [loading,setLoading] = useState<boolean>(false);
 
-    const onSubmit  = () => {
-        window.alert(name+contact+message);
+    const onSubmit  = async () => {
+
+      if(loading)return;
+
+      if(error){
+        toast.error("Please try later or directly email me");
+        return;
+      }
+
+      if(!name || !contact || !message){
+        toast.error("Please fill all the inputs");
+        return;
+      }
+
+      await sendEmail({ name:name,contact:contact,message:message,setError:setError,setLoading:setLoading})
+
+      if(!error){
         setName("");
         setMessage("");
         setContact("");
+      }
     }
 
   return (

@@ -1,7 +1,9 @@
+import { Resume as ResumeLink } from "../../../data/constants"
+
 const Resume = () => {
 
   return (
-    <a title="Resume" href='../../../data/ResumeSohamJoshi29112024.pdf' download="ResumeSohamJoshi29112024.pdf">
+    <a title="Resume" href={ResumeLink} target="_blank" rel="noopener noreferrer">
 
       <svg className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#ffffff" version="1.1" id="Capa_1" viewBox="0 0 60 60" xmlSpace="preserve" width="20" height="20" stroke="#ffffff">
 
