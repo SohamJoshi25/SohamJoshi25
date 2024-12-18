@@ -24,7 +24,7 @@ const Contactme : React.FC<ContactType> = ({forwardRef}) => {
     <div className="w-full flex justify-center flex-col items-center pt-[96px] pb-[80px]" ref={forwardRef}>
 
       <div className="mb-[100px] text-gradiant m-auto w-full text-center">
-        <span className="sm:text-[68px] text-[40px] noto-sans-450" style={{"fontWeight":"500"}}>CONTACT ME</span>
+        <span className="sm:text-[68px] text-[44px] noto-sans-450" style={{"fontWeight":"500"}}>CONTACT ME</span>
       </div> 
 
       <div className="flex items-start xl:flex-row flex-col justify-around gap-y-[80px] gap-x-[50px] xl:w-[1400px] w-[80%] ">

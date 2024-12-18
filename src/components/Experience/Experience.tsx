@@ -10,7 +10,7 @@ const Experience : React.FC<ExperienceType> = ({forwardRef}) => {
     <div className="w-full flex justify-center flex-col items-center pt-[100px] pb-[20px]" ref={forwardRef}>
 
       <div className="mb-[140px] text-gradiant">
-        <span className="text-[68px] noto-sans-450" style={{"fontWeight":"500"}}>Experience</span>
+        <span className="md:text-[68px] text-[58px] noto-sans-450" style={{"fontWeight":"500"}}>Experience</span>
       </div> 
       
       <div className="flex flex-col justify-center md:gap-y-[220px] gap-y-[140px] md:w-[61%] w-[78%]">
