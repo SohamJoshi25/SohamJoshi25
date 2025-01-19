@@ -1,4 +1,5 @@
 //Assets
+import { toast } from "react-toastify"
 import Email from "./assets/Email"
 import Github from "./assets/Github"
 import LinkedIn from "./assets/LinkedIn"
@@ -18,15 +19,19 @@ const scrollToElement = (targetRef : React.RefObject<HTMLDivElement>) => {
   });
 };
 
+const copyNumber = ()=>{
+  navigator.clipboard.writeText("+91 9922927414");
+  toast.success("Number Copied!")
+}
+
 const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
   return (
-    <div className='bg-black w-full h-[200px] md:px-[50px] sm:px-[30px] px-[15px] pt-[18px] text-white flex flex-row justify-between gap-x-[30px]'>
+    <div className='bg-black w-full h-[200px] md:px-[50px] sm:px-[30px] px-[15px] pt-[18px] text-white flex flex-row justify-around gap-x-[250px]'>
         
-      <div className="flex flex-col justify-between py-[12px]">
+      <div className="flex flex-col justify-start gap-[15px] py-[12px]">
         <span className='md:text-3xl sm:text-2xl text-xl tracking-wide'>SOHAM JOSHI</span>
         <div>
           <p className='md:text-[12px] sm:text-[8px] text-[6px] leading-[18px]'>Designed and developed  with ♡ by me </p>
-          <p className='md:text-[12px] sm:text-[8px] text-[6px] leading-[18px]'>Copyright© 2024</p>
         </div>
       </div>
 
@@ -47,7 +52,7 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
           <Resume/>
         </div>
 
-        <div className="flex flex-row gap-[12px] justify-end items-center text-sm">
+        <div className="flex flex-row gap-[12px] justify-end items-center text-sm cursor-pointer" onClick={copyNumber}>
           <Phone onClick={()=>{}}/>
           <span className="tracking-wider">+91 9922927414</span>
         </div>

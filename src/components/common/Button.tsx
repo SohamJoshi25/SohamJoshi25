@@ -2,14 +2,15 @@
 type ButtonType = {
     Text:string,
     Style?:string,
-    onClick?:() => void,
+    onClick?:()=>void,
+    href?:string
 }
 
-const Button : React.FC<ButtonType> = ({Text,Style,onClick}) => {
+const Button : React.FC<ButtonType> = ({Text,Style,onClick,href}) => {
   return (
-    <div onClick={onClick} className={`text-white lg:text-[15px] md:text-[12px] text-[10px] text-center my-auto font-[400] lg:p-[8px] lg:px-[20px] md:p-[6px] md:px-[15px] p-[4px] px-[10px]  rounded-[5px] cursor-pointer hover:bg-black hover:shadow-xl z-10 ${Style}`} style={{"background": "linear-gradient(to right, #272727 , #2C2C2C)"}}>
+    <a href={href} onClick={onClick} target='_blank' rel='noopener noreferrer' className={`text-white lg:text-[15px] md:text-[12px] text-[10px] text-center my-auto font-[400] lg:p-[8px] lg:px-[20px] md:px-[16px] py-[6px] px-[14px]  rounded-[5px] cursor-pointer hover:bg-black hover:shadow-xl z-10 bg-gradient-to-r from-[#272727] to-[#2C2C2C] ${Style || ""}`}>
         {Text}
-    </div>
+    </a>
   )
 }
 

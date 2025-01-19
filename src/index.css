@@ -11,6 +11,12 @@
       "wdth" 100;
 }
 
+.saira-semi-condensed-bold {
+  font-family: "Saira Semi Condensed" ;
+  font-weight: 600;
+  font-style: normal;
+}
+
 ::selection {
   background-color: #373737;
   color: #FFFFFF;
@@ -67,4 +73,58 @@
   -webkit-text-fill-color: #000000;
   background: "#000000";
   -webkit-background-clip: text;
+}
+
+@keyframes appear {
+  from{
+    opacity:0.2;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+@keyframes leftAppear {
+  from{
+    opacity:0.2;
+    transform: translateX(-5vw) translateY(100px);
+  }
+  to{
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightAppear {
+  from{
+    opacity:0.2;
+    transform: translateX(5vw) translateY(100px);
+  }
+  to{
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+
+
+.animate-appear {
+  animation: appear 300ms linear;  
+}
+
+.animate-appear-title {
+  animation: appear 300ms linear;  
+  animation-timeline: view();
+  animation-range: entry 0% cover 38%;
+}
+
+.animate-left {
+  animation: leftAppear 1s linear;  
+  animation-timeline: view();
+  animation-range: entry 0% cover 38%;
+}
+
+.animate-right {
+  animation: rightAppear 1s linear;  
+  animation-timeline: view();
+  animation-range: entry 0% cover 38%;
 }

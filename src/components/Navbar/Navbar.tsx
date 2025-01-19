@@ -34,19 +34,19 @@ const Navbar : React.FC<NavbarType> = ({AboutRef,ExperienceRef,ProjectRef,Contac
 
             {Dimensions.width>Breakpoint && <div className="group cursor-pointer mt-[10px]" onClick={()=>{scrollToElement(AboutRef)}}>
                 <span>About Me</span>
-                <div className="relative w-full h-[3px] bg-blue-950 rounded-full right-[3px] top-[2px]"></div>
+                <div className="relative w-full h-[3px] bg-[#272727] rounded-full right-[3px] top-[2px]"></div>
                 <div className="relative w-[108%] h-[5px] bg-[#E6E6E6] rounded-full right-[5px] top-[-1px] transition-all duration-500 group-hover:translate-x-[200px]"></div>
             </div>}
 
             {Dimensions.width>Breakpoint && <div className="group cursor-pointer mt-[10px]" onClick={()=>{scrollToElement(ExperienceRef)}}>
                 <span>Experience</span>
-                <div className="relative w-full h-[3px] bg-blue-950 rounded-full right-[3px] top-[2px]"></div>
+                <div className="relative w-full h-[3px] bg-[#272727] rounded-full right-[3px] top-[2px]"></div>
                 <div className="relative w-[108%] h-[5px] bg-[#E6E6E6] rounded-full right-[5px] top-[-1px] transition-all duration-500 group-hover:translate-x-[200px]"></div>
             </div>}
 
             {Dimensions.width>Breakpoint && <div className="group cursor-pointer mt-[10px]" onClick={()=>{scrollToElement(ProjectRef)}}>
                 <span>Projects</span>
-                <div className="relative w-full h-[3px] bg-blue-950 rounded-full right-[3px] top-[2px]"></div>
+                <div className="relative w-full h-[3px] bg-[#272727] rounded-full right-[3px] top-[2px]"></div>
                 <div className="relative w-[108%] h-[5px] bg-[#E6E6E6] rounded-full right-[5px] top-[-1px] transition-all duration-500 group-hover:translate-x-[200px]"></div>
             </div>}
 
