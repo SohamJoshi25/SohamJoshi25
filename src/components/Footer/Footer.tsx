@@ -26,7 +26,7 @@ const copyNumber = ()=>{
 
 const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
   return (
-    <div className='bg-black w-full h-[200px] md:px-[50px] sm:px-[30px] px-[15px] pt-[18px] text-white flex flex-row justify-around gap-x-[250px]'>
+    <div className='bg-black w-full h-[200px] md:px-[50px] sm:px-[30px] px-[15px] pt-[18px] text-white flex flex-row justify-around'>
         
       <div className="flex flex-col justify-start gap-[15px] py-[12px]">
         <span className='md:text-3xl sm:text-2xl text-xl tracking-wide'>SOHAM JOSHI</span>
