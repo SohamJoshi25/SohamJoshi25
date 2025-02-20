@@ -42,7 +42,7 @@ const Contactme : React.FC<ContactType> = ({forwardRef}) => {
     }
 
   return (
-    <div className="w-full flex justify-center flex-col items-center pt-[100px] pb-[70px] px-2 bg-gradient-to-r from-[hsl(0,0%,90%)] via-50% via-[hsl(0,0%,89%)] to-[hsl(0,0%,88%)]" ref={forwardRef}>
+    <div className="w-full flex justify-center flex-col items-center pt-[100px] pb-[70px] bg-gradient-to-r from-[hsl(0,0%,90%)] via-50% via-[hsl(0,0%,89%)] to-[hsl(0,0%,88%)]" ref={forwardRef}>
 
       <div className="mb-[90px] px-10 text-gradiant m-auto w-full text-center animate-appear-title">
         <span className="lg:text-[62px] text-[42px] noto-sans-450 " style={{"fontWeight":"500"}}>CONTACT ME</span>
@@ -67,7 +67,7 @@ const Contactme : React.FC<ContactType> = ({forwardRef}) => {
                 <input type="text" value={contact} className="block w-full text-sm h-[44px] p-[10px] outline-none rounded-[4px] shadow-sm" placeholder="Your Email or Number" onChange={(e)=>{setContact(e.target.value)}}/>
             </div>
 
-            <div className=" mt-[38px]">
+            <div className="mt-[38px]">
                 <div className="sm:text-[16px] text-[14px] tracking-wider mb-[2px]">YOUR MESSAGE</div>
                 <textarea value={message} className="block w-full text-sm h-[160px] min-h-[220px] outline-none rounded-[4px] p-[10px] resize-none shadow-sm" placeholder="Lets Connect regarding a Project" onChange={(e)=>{setMessage(e.target.value)}}></textarea>
             </div>
