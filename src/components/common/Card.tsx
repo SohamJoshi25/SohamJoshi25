@@ -14,9 +14,9 @@ type CardType = {
 
 export const ExperienceCard : React.FC<CardType> = ({index,experience}) => {
   return (
-    <div className={`flex justify-center items-center md:items-start w-full w-min-[900px] gap-x-[20px] gap-y-[10px] ${index%2==0?"md:flex-row-reverse animate-left":"md:flex-row animate-right"} flex-col`}>
+    <div className={`flex justify-center rounded-lg py-10 items-center md:items-start w-full w-min-[900px] gap-x-[20px] gap-y-[10px] ${index%2==0?"md:flex-row-reverse animate-left":"md:flex-row animate-right"} flex-col`}>
         <div className="max-w-[460px]">
-            <img src={experience?.image}  alt="" className="rounded-[15px] w-full" />
+            <img src={experience?.image}  alt="" className="rounded-[5px] w-full shadow-[0_0px_10px_2px_rgb(0_0_0/20%)]" />
         </div>
         <div className="pt-1 w-full max-w-[460px] lg:max-w-fit">
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{experience?.title} </h4>
@@ -37,9 +37,9 @@ export const ExperienceCard : React.FC<CardType> = ({index,experience}) => {
 
 export const ProjectCard : React.FC<CardType> = ({index,project}) => {
     return (
-        <div className={`flex justify-center md:items-start w-full w-min-[900px] gap-x-[20px] gap-y-[10px] ${index%2==0?"md:flex-row-reverse animate-left":"md:flex-row animate-right"} flex-col`}>
+        <div className={`flex justify-center py-10 md:items-start w-full w-min-[900px] gap-x-[20px] gap-y-[10px] ${index%2==0?"md:flex-row-reverse animate-left":"md:flex-row animate-right"} flex-col`}>
           <div className=" max-w-[460px]">
-              <img src={project?.image} alt="" className="rounded-[15px] " />
+              <img src={project?.image} alt="" className="rounded-[5px] shadow-[#DADADA30] shadow-[0_0px_10px_0]" />
           </div>
           <div className="pt-1">
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{project?.title}</h4>

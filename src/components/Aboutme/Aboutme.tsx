@@ -34,9 +34,10 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
 
     const Dimensions = useWindowDimensions();
     const [isHovering, setIsHovering] = useState<boolean>(false);
+    //from-[hsl(39,15%,88%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(40,15%,74%)]
 
     return (
-        <div className="flex justify-center relative max-[575px]:items-center bg-gradient-to-r animate-appear from-[hsl(39,15%,88%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(40,15%,74%)] py-[60px] min-[575px]:flex-row flex-col-reverse" ref={forwardRef}>
+        <div className="flex justify-center relative max-[575px]:items-center bg-gradient-to-r animate-appear from-[hsl(60,2%,84%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(60,3%,79%)] py-[60px] min-[575px]:flex-row flex-col-reverse" ref={forwardRef}>
 
             {Dimensions.width > 830 && <div className="flex flex-col relative h-full justify-around ml-5 pt-[10px] gap-[5px] mr-[5px] px-[10px]">
                 <ReactSVG/>

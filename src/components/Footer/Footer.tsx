@@ -1,10 +1,8 @@
 //Assets
 import { toast } from "react-toastify"
-import Email from "./assets/Email"
+import {Email} from "../../data/constants"
 import Github from "./assets/Github"
 import LinkedIn from "./assets/LinkedIn"
-import Phone from "./assets/Phone"
-import Resume from "./assets/Resume"
 
 type FooterType = {
   AboutRef:React.RefObject<HTMLDivElement>,
@@ -35,7 +33,7 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-between py-[20px]">
+      <div className="flex flex-col justify-between pt-[18px] pb-[34px]">
 
         <div className="flex flex-row gap-[10px] justify-end items-center md:text-[15px] sm:text-[12px] min-[575px]:text-10px] text-[8px] ">
           <span className="cursor-pointer" onClick={()=>{scrollToElement(AboutRef)}}>About Me</span>
@@ -46,15 +44,13 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
         </div>
 
         <div className="flex flex-row md:gap-x-[25px] sm:gap-x-[15px] gap-x-[10px] justify-end items-center ">
-          <Email/>
+          
           <Github/>
           <LinkedIn/>
-          <Resume/>
         </div>
 
         <div className="flex flex-row gap-[12px] justify-end items-center text-sm cursor-pointer" onClick={copyNumber}>
-          <Phone onClick={()=>{}}/>
-          <span className="tracking-wider">+91 9922927414</span>
+          <span className="tracking-wider text-[14px]">{Email}</span>
         </div>
 
       </div>
