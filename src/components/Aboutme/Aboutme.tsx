@@ -23,7 +23,8 @@ import useWindowDimensions from "../../hooks/useWindowDimensions"
 
 //Constants
 import { Github } from "../../data/constants"
-import RustSVG from "./components/RustSVG"
+//import RustSVG from "./components/RustSVG"
+import GoSVG from "./components/GoSVG"
 
 
 type AboutmeType = {
@@ -51,7 +52,7 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
                 <OauthSVG/>
                 <RedisSVG/>
                 <TypescriptSVG/>
-                <RustSVG/>
+                <GoSVG/>
             </div>}
 
             {Dimensions.width <= 830 && <div className="flex flex-col absolute bottom-5 justify-around  pt-[10px] gap-[5px]  z-0 w-full">
@@ -71,24 +72,24 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
                     <OauthSVG/>
                     <RedisSVG/>
                     <TypescriptSVG/>
-                    <RustSVG/>
+                    <GoSVG/>
                 </div>
                 
             </div>}
 
             <div className="z-30 p-[5px] min-[575px]:pl-[20px] min-[575px]:w-[700px] min-[575px]:left-10 relative  pb-[86px]">
                 {Dimensions.width>=575 && <div className="lg:text-[54px] md:text-[40px] sm:text-[30px] font-[500] text-[1.5rem] lg:leading-[74px] tracking-wide text-transparent " style={{"fontFamily":"Saira Semi Condensed"}} onMouseEnter={()=>{setIsHovering(true)}} onMouseLeave={()=>{setIsHovering(false)}} >
-                    <h1 id="title1" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[hsl(41,51%,25%)] hover:to-[hsl(41,36%,60%)] hover:scale-110 origin-left hover:font-[700] transition-transform`}>FULL STACK DEVELOPER</h1>
-                    <h1 id="title2" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[#1f2a5f] hover:to-[#767fbe] hover:scale-110 origin-left hover:font-[700] transition-transform`}>PROGRAMMER</h1>
-                    <h1 id="title3" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[hsl(295,51%,25%)] hover:to-[hsl(295,36%,60%)] hover:scale-110 origin-left hover:font-[700] transition-transform`}>FREELANCER</h1>
+                    <h1 id="title1" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[hsl(41,51%,25%)] hover:to-[hsl(41,36%,60%)] hover:scale-110 origin-left hover:font-[600] transition-transform`}>FULL STACK DEVELOPER</h1>
+                    <h1 id="title2" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[#1f2a5f] hover:to-[#767fbe] hover:scale-110 origin-left hover:font-[600] transition-transform`}>TECH ENTHUSIAST</h1>
+                    <h1 id="title3" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[hsl(295,51%,25%)] hover:to-[hsl(295,36%,60%)] hover:scale-110 origin-left hover:font-[600] transition-transform`}>PROGRAMMER</h1>
                 </div>}
-                <h4 className="mt-[30px] sm:max-w-[360px] max-w-[280px] w-d min-[575px]:text-[18px] text-[16px] min-[575px]:tracking-wider min-[575px]:leading-[24px] pl-[5px] text-center min-[575px]:text-left ">
+                <h4 className="mt-[30px] sm:max-w-[360px] max-w-[280px] min-[575px]:text-[19px] text-[17px] min-[575px]:tracking-wider min-[575px]:leading-[24px] pl-[5px] text-center min-[575px]:text-left ">
                     A Full-Stack Developer From Pune, Crafting Responsive And Scalable Websites And Software.
                 </h4>
-                <h4 className="mt-[30px] sm:max-w-[360px] max-w-[280px] w-d min-[575px]:text-[18px] text-[16px] min-[575px]:tracking-wider min-[575px]:leading-[24px] pl-[5px] text-center min-[575px]:text-left ">
-                Worked with technologies like NodeJS, ExpressJS, ReactJS, TailWindCSS, NextJS, Git, Github, MongoDB, JWT, Redis, PassportJS, ContextAPI, MySQL, Django, Actix, Docker, EJS.
+                <h4 className="mt-[30px] sm:max-w-[360px] max-w-[280px] min-[575px]:text-[18px] text-[16px] min-[575px]:tracking-wider min-[575px]:leading-[24px] pl-[5px] text-center min-[575px]:text-left ">
+                Worked with technologies like GoLang, Docker,Java, Typescript and Javascript, NodeJS, ExpressJS, ReactJS, TailWindCSS, NextJS, Git, Github, MongoDB, JWT, Redis, PassportJS, ContextAPI and lot more ...
                 </h4>
-                <h4 className="mt-[20px] md:mb-[50px] mb-[30px] min-[575px]:text-[19px] text-[17px] min-[575px]:tracking-wide min-[575px]:leading-[24px] px-[5px] text-center min-[575px]:text-left w-full">Let's Work Together</h4>
+                <h4 className="mt-[20px] md:mb-[40px] mb-[30px] min-[575px]:text-[19px] text-[17px] min-[575px]:tracking-wide min-[575px]:leading-[24px] px-[5px] text-center min-[575px]:text-left w-full">Let's Work Together</h4>
                 
                 
                 <div className="w-fit max-[575px]:m-auto">
@@ -102,8 +103,8 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
 
             {Dimensions.width<575 && <div className="lg:text-[58px] md:text-[40px] sm:text-[34px] text-[32px] w-fit font-[500] text-gradiant lg:leading-[74px] text-center min-[575px]:text-left">
                 <h1>FULL STACK DEVELOPER</h1>
+                <h1>TECH ENTHUSIAST</h1>
                 <h1>PROGRAMMER</h1>
-                <h1>FREELANCER</h1>
             </div>}
 
         </div>

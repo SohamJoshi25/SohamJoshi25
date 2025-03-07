@@ -17,9 +17,9 @@ const scrollToElement = (targetRef : React.RefObject<HTMLDivElement>) => {
   });
 };
 
-const copyNumber = ()=>{
-  navigator.clipboard.writeText("+91 9922927414");
-  toast.success("Number Copied!")
+const copyEmail = ()=>{
+  navigator.clipboard.writeText(Email);
+  toast.success("Email Copied!")
 }
 
 const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
@@ -49,7 +49,7 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
           <LinkedIn/>
         </div>
 
-        <div className="flex flex-row gap-[12px] justify-end items-center text-sm cursor-pointer" onClick={copyNumber}>
+        <div className="flex flex-row gap-[12px] justify-end items-center text-[11px] cursor-pointer" onClick={copyEmail}>
           <span className="tracking-wider text-[14px]">{Email}</span>
         </div>
 
