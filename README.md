@@ -5,7 +5,7 @@ Hey, I am <a href="https://sohamjoshi.in" target="_blank">Soham Joshi</a>, welco
 
 </p>
 
-## Languages and Tools:
+## 🧑‍💻 Languages and Tools:
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,actix,arduino,docker,express,figma,git,go,nextjs,nodejs,postgres,postman,react,redis,rust,tailwind,ts,vite)](https://skillicons.dev)
 ## 📊 GitHub Stats:
   
