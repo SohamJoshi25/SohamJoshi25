@@ -4,7 +4,7 @@ import { Resume } from "../../data/constants";
 
 const ResumeRedirect = () => {
     useEffect(()=>{
-        window.location.href = Resume
+        window.location.href = Resume;
     },[])
   return null;
 }
