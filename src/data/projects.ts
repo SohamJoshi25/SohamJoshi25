@@ -40,7 +40,7 @@ export const ProjectsData : ProjectType[] = [
         title:"OAuth Microservice",
         isFinished:true,
         text:"Implemented a service which manages authentication of users using various apps to integrate user specific features, fetch user specific app data from OAuth service provider eg. Google Drive, Google Photos, Dropbox, Pinterest, etc. Implemented in Express.js and MongoDB for session and token management.",
-        onClickLink:"https://driveconnect-app.vercel.app/"
+        onClickLink:"https://github.com/SohamJoshi25/OauthBackend"
     },
     {
         image:"/Projects/shorturl.png",
