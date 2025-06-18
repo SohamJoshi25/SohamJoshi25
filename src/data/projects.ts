@@ -20,33 +20,33 @@ export const ProjectsData : ProjectType[] = [
         isFinished:true,
         text:"A CLI-Based App written in golang which can be used to iteratively lookupserver between root server, TLD server, name and authoritative server andresolve dns queries with support to override certain domain queries to respond with custom answer. UDP data transmission was implemented with only standard libraries. Database used was postgres to store answers.",
         onClickLink:"https://github.com/SohamJoshi25/dns-server"
+    },
+    {
+        image:"/Projects/keyboard.png",
+        title:"Custom Keyboard with Firmware",
+        isFinished:true,
+        text:"My Keyboard Broke, so i used the keys of the broken mechanical keyboard, wired the switches with an ESP-32 and wrote the hardware by myself using the Bluetooth Library in c++. I also  had to  hand soldered 100 zener diode 3 whole times (Check  their Polarity twice🥲).",
+        onClickLink:"https://github.com/SohamJoshi25/ESP32Keyboard"
+    },
+    {
+        image:"/Projects/farmermarket.png",
+        title:"Farmer Market API",
+        isFinished:true,
+        text:"About A API which exposes a quantity and prices of all local farmer's market products daily by scraping a Government Website (Pune APMC). Database is daily updated using github actions cron job scheduler.",
+        onClickLink:"https://github.com/SohamJoshi25/PuneFarmersMarket-API"
+    },
+    {
+        image:"/Projects/oauth.png", 
+        title:"OAuth Microservice",
+        isFinished:true,
+        text:"Implemented a service which manages authentication of users using various apps to integrate user specific features, fetch user specific app data from OAuth service provider eg. Google Drive, Google Photos, Dropbox, Pinterest, etc. Implemented in Express.js and MongoDB for session and token management.",
+        onClickLink:"https://driveconnect-app.vercel.app/"
+    },
+    {
+        image:"/Projects/shorturl.png",
+        title:"ShortURL",
+        isFinished:true,
+        text:"Developed ShortURL, a URL shortening service using Next.js for frontend and backend. Enhanced performance with Redis caching and utilized MongoDB for efficient URL storage. Created responsive interfaces with Next.js and styled with CSS for visual appeal.solution for managing and retrieving data swiftly.",
+        onClickLink:"https://123short.vercel.app/"
     }
-    // {
-    //     image:"/Projects/driveconnect.png",
-    //     title:"Custom Keyboard with Firmware",
-    //     isFinished:true,
-    //     text:"My Keyboard Broke, so i used the keys of the broken mechanical keyboard, wired the switches with an ESP-32 and wrote the hardware by myself using the Bluetooth Library in c++. I also  had to  hand soldered 100 zener diode 3 whole times (Check  their Polarity twice🥲).",
-    //     onClickLink:"https://driveconnect-app.vercel.app/"
-    // },
-    // {
-    //     image:"/Projects/driveconnect.png",
-    //     title:"Deep Linker | Opens Link in app ",
-    //     isFinished:true,
-    //     text:"Developed a Product which provides Deep Links for famous applications. Deep Linking Allows a link to be opened directly in app increasing retentionship and engagement and allows for more security. Tech Stack used was Express to create RESTful APIs and interface using Server Side Rendered Pages.",
-    //     onClickLink:"https://driveconnect-app.vercel.app/"
-    // },
-    // {
-    //     image:"/Projects/driveconnect.png", 
-    //     title:"OAuth Microservice",
-    //     isFinished:true,
-    //     text:"Implemented a service which manages authentication of users using various apps to integrate user specific features, fetch user specific app data from OAuth service provider eg. Google Drive, Google Photos, Dropbox, Pinterest, etc. Implemented in Express.js and MongoDB for session and token management.",
-    //     onClickLink:"https://driveconnect-app.vercel.app/"
-    // },
-    // {
-    //     image:"/Projects/driveconnect.png",
-    //     title:"ShortURL",
-    //     isFinished:true,
-    //     text:"Developed ShortURL, a URL shortening service using Next.js for frontend and backend. Enhanced performance with Redis caching and utilized MongoDB for efficient URL storage. Created responsive interfaces with Next.js and styled with CSS for visual appeal.solution for managing and retrieving data swiftly.",
-    //     onClickLink:"https://driveconnect-app.vercel.app/"
-    // }
 ];

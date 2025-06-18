@@ -17,7 +17,7 @@ const Experience : React.FC<ExperienceType> = ({forwardRef}) => {
         <span className="md:text-[68px] text-[58px] noto-sans-450" style={{"fontWeight":"500"}}>Experience</span>
       </div> 
       
-      <div className="flex flex-col justify-center md:gap-y-[140px] gap-y-[100px] md:w-[61%] w-[78%]">
+      <div className="flex flex-col justify-center md:gap-y-[90px] gap-y-[90px] md:w-[61%] w-[78%]">
         {ExperienceData.map((experience, idx) => (
           <ExperienceCard key={idx} index={idx} experience={experience}/>
         ))}

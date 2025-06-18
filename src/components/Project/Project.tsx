@@ -18,7 +18,7 @@ const Project : React.FC<ProjectType> = ({forwardRef}) => {
           <span className="text-[63px] noto-sans-450" style={{"fontWeight":"500"}}>Projects</span>
         </div> 
         
-        <div className="flex flex-col justify-center md:gap-y-[140px] gap-y-[100px] md:w-[61%] w-[78%]">
+        <div className="flex flex-col justify-center md:gap-y-[90px] gap-y-[100px] md:w-[61%] w-[78%]">
           {ProjectsData.map((project, idx) => (
             <ProjectCard key={idx} index={idx + offset} project={project} />
           ))}
