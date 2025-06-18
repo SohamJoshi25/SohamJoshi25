@@ -23,7 +23,7 @@ export const ProjectsData : ProjectType[] = [
     },
     {
         image:"/Projects/keyboard.png",
-        title:"Custom Keyboard with Firmware",
+        title:"Keyboard Firmware",
         isFinished:true,
         text:"My Keyboard Broke, so i used the keys of the broken mechanical keyboard, wired the switches with an ESP-32 and wrote the hardware by myself using the Bluetooth Library in c++. I also  had to  hand soldered 100 zener diode 3 whole times (Check  their Polarity twice🥲).",
         onClickLink:"https://github.com/SohamJoshi25/ESP32Keyboard"
