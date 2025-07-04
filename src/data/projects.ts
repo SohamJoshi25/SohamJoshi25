@@ -8,6 +8,13 @@ export type ProjectType = {
 
 export const ProjectsData : ProjectType[] = [
     {
+        image:"/Projects/dirvcs.png",
+        title:"DIRVCS",
+        isFinished:true,
+        text:"dIRVCS is a command-line version control tool built specifically for directory structures. Unlike Git, it does not track content — instead, it tracks and compares snapshots of your folder hierarchy.",
+        onClickLink:"https://dirvcs.sohamjoshi.in"
+    },
+    {
         image:"/Projects/driveconnect.png",
         title:"Drive Connect",
         isFinished:true,
@@ -21,13 +28,13 @@ export const ProjectsData : ProjectType[] = [
         text:"A CLI-Based App written in golang which can be used to iteratively lookupserver between root server, TLD server, name and authoritative server andresolve dns queries with support to override certain domain queries to respond with custom answer. UDP data transmission was implemented with only standard libraries. Database used was postgres to store answers.",
         onClickLink:"https://github.com/SohamJoshi25/dns-server"
     },
-    {
-        image:"/Projects/keyboard.png",
-        title:"Keyboard Firmware",
-        isFinished:true,
-        text:"My Keyboard Broke, so i used the keys of the broken mechanical keyboard, wired the switches with an ESP-32 and wrote the hardware by myself using the Bluetooth Library in c++. I also  had to  hand soldered 100 zener diode 3 whole times (Check  their Polarity twice🥲).",
-        onClickLink:"https://github.com/SohamJoshi25/ESP32Keyboard"
-    },
+    // {
+    //     image:"/Projects/keyboard.png",
+    //     title:"Keyboard Firmware",
+    //     isFinished:true,
+    //     text:"My Keyboard Broke, so i used the keys of the broken mechanical keyboard, wired the switches with an ESP-32 and wrote the hardware by myself using the Bluetooth Library in c++. I also  had to  hand soldered 100 zener diode 3 whole times (Check  their Polarity twice🥲).",
+    //     onClickLink:"https://github.com/SohamJoshi25/ESP32Keyboard"
+    // },
     {
         image:"/Projects/farmermarket.png",
         title:"Farmer Market API",
