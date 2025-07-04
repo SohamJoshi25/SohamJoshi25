@@ -1,15 +1,23 @@
-
 ## 💫 About Me
-<span >
-Hey, I am <a href="https://sohamjoshi.in" target="_blank">Soham Joshi</a>, welcome to my Github Profile. Feel Free to explore my repositories you can dive into my various projects. Exploring more opportunities to collaborate so feel free to connect.</span>
+Hey, I am <a href="https://sohamjoshi.in" target="_blank">Soham Joshi</a>, welcome to my Github Profile.  
+Feel free to explore my repositories and dive into my various projects. I'm always exploring opportunities to collaborate — feel free to connect!
 
+---
+
+### 🧑‍💻 Languages and Tools  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,html,css,actix,arduino,docker,express,figma,git,go,nextjs,nodejs,postgres,postman,react,redis,rust,tailwind,ts,vite,spring,java,fastapi" height="100"/>
 </p>
 
-## 🧑‍💻 Languages and Tools
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,actix,arduino,docker,express,figma,git,go,nextjs,nodejs,postgres,postman,react,redis,rust,tailwind,ts,vite,postgres,spring,java,fastapi)](https://skillicons.dev)
-## 📊 GitHub Stats
-  
+---
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=SohamJoshi25&theme=dark&hide_border=false)
-  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=SohamJoshi25&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+### 📊 GitHub Stats  
+<div align="left">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SohamJoshi25&theme=dark&hide_border=false" height="170"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SohamJoshi25&layout=compact&theme=dark&langs_count=10&hide=html,css,ShaderLab,Jupyter%20Notebook" height="200"/>
+
+</div>
