@@ -11,7 +11,7 @@ export const ProjectsData : ProjectType[] = [
         image:"/Projects/dirvcs.png",
         title:"DIRVCS",
         isFinished:true,
-        text:"dIRVCS is a command-line version control tool built specifically for directory structures. Unlike Git, it does not track content — instead, it tracks and compares snapshots of your folder hierarchy.",
+        text:"Dirvcs is a command-line version control tool built specifically for directory structures. Unlike Git, it does not track content — instead, it tracks and compares snapshots of your folder hierarchy.",
         onClickLink:"https://dirvcs.sohamjoshi.in"
     },
     {
@@ -25,7 +25,7 @@ export const ProjectsData : ProjectType[] = [
         image:"/Projects/dnsserver.png",
         title:"DNS Server CLI",
         isFinished:true,
-        text:"A CLI-Based App written in golang which can be used to iteratively lookupserver between root server, TLD server, name and authoritative server andresolve dns queries with support to override certain domain queries to respond with custom answer. UDP data transmission was implemented with only standard libraries. Database used was postgres to store answers.",
+        text:"A CLI-Based App written in golang which can be used to iteratively lookup server between root server, TLD server, name and authoritative server and resolve dns queries with support to override certain domain queries to respond with custom answer. UDP data transmission was implemented with only standard libraries. Database used was postgres to store answers.",
         onClickLink:"https://github.com/SohamJoshi25/dns-server"
     },
     // {
