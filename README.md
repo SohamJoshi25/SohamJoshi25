@@ -6,7 +6,9 @@ Feel free to explore my repositories and dive into my various projects. I'm alwa
 
 ### 🧑‍💻 Languages and Tools  
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=js,html,css,actix,arduino,docker,express,figma,git,go,nextjs,nodejs,postgres,postman,react,redis,rust,tailwind,ts,vite,spring,java,fastapi" height="100"/>
+  <a href="https://skillicons.dev">
+     <img src="https://skillicons.dev/icons?i=js,html,css,actix,arduino,docker,express,figma,git,go,nextjs,nodejs,postgres,postman,react,redis,rust,tailwind,ts,vite,spring,java,fastapi&perline=11" width="510"/>
+  </a>
 </p>
 
 ---
