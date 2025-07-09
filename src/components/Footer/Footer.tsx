@@ -3,6 +3,7 @@ import { toast } from "react-toastify"
 import {Email} from "../../data/constants"
 import Github from "./assets/Github"
 import LinkedIn from "./assets/LinkedIn"
+import Resume from "./assets/Resume"
 
 type FooterType = {
   AboutRef:React.RefObject<HTMLDivElement>,
@@ -44,7 +45,7 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
         </div>
 
         <div className="flex flex-row md:gap-x-[25px] sm:gap-x-[15px] gap-x-[10px] justify-end items-center ">
-          
+          <Resume/>
           <Github/>
           <LinkedIn/>
         </div>
