@@ -37,7 +37,7 @@ export const ProjectsData : ProjectType[] = [
         title:"Flappy Bird",
         isFinished:true,
         tags:["Unity"],
-        text:"Flappy Bird go weeeeeee. First Project to explore Unity and Game Development. A Game with multiple scenes, audio effects, animations, transitions, Volume control and pause/Plat GUI ",
+        text:"Flappy Bird go weeeeeee. First Project to explore Unity and Game Development. A Game with multiple scenes, audio effects, animations, transitions, Volume control with pause/play functionality.",
         onClickLink:"https://github.com/SohamJoshi25/FlappyBird"
     },
     {
