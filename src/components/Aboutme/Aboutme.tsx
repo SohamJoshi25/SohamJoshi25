@@ -93,7 +93,7 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
                 
                 
                 <div className="w-fit max-[575px]:m-auto">
-                    <Button Text={"View My Work"} href={Github}/>
+                    <Button Text={"View Github"} href={Github}/>
                 </div>
             </div>
 

@@ -20,10 +20,14 @@ export const ExperienceCard : React.FC<CardType> = ({index,experience}) => {
         </div>
         <div className="pt-1 w-full max-w-[460px] lg:max-w-fit">
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{experience?.title} </h4>
-            <p className="text-[18px] tracking-wide mb-[5px]">{experience?.subtitle} </p>
-            <h3 className="text-[20px] tracking-wider font-[400] ">{experience?.date} </h3>
+            <p className="text-[18px] tracking-wide">{experience?.subtitle} </p>
+            <h3 className="text-[17px] tracking-wider font-[350] ">{experience?.date} </h3>
 
-            <p className="mt-[15px] mb-[22px] font-sans min-[575px]:max-w-[400px] text-[14px] leading-[18px]">
+            {experience?.tags && <div className="flex flex-row gap-x-3 gap-y-2 py-2 text-[13px] mt-[2px] flex-wrap">
+                {experience.tags.map(tag =><span className="px-2 pb-[1px] border border-[hsl(0,0%,11%)] rounded-xl text-nowrap">{tag}</span>)}
+            </div>}
+
+            <p className="mt-[6px] mb-[22px] font-sans min-[575px]:max-w-[400px] text-[14px] leading-[18px]">
                 {experience?.text}    
             </p>
             <div className="w-full m-auto">
@@ -43,13 +47,17 @@ export const ProjectCard : React.FC<CardType> = ({index,project}) => {
           </div>
           <div className="pt-1">
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{project?.title}</h4>
-  
-                <p className="mt-[15px] mb-[22px] font-sans min-[575px]:max-w-[400px] text-[14px] leading-[18px]">
+        
+                {project?.tags && <div className="flex flex-row gap-x-3 gap-y-2 py-2 text-[13px] mt-[2px] flex-wrap text-[#d3d3d3]">
+                    {project.tags.map(tag =><span className="px-2 pb-[1px] border border-[#d3d3d3] rounded-xl">{tag}</span>)}
+                </div>}
+
+                <p className="mt-[6px] mb-[22px] font-sans min-[575px]:max-w-[400px] text-[14px] leading-[18px]">
                     {project?.text}
                 </p>
   
                 <div className="w-full m-auto">
-                    <Button Text={"View My Work"} Style={"w-fit max-[575px]:m-auto border border-[1.8px]"} href={project?.onClickLink} />
+                    <Button Text={"View Project"} Style={"w-fit max-[575px]:m-auto border border-[1.8px]"} href={project?.onClickLink} />
                 </div>
           </div>
       </div>
