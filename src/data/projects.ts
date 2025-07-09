@@ -20,7 +20,7 @@ export const ProjectsData : ProjectType[] = [
         image:"/Projects/driveconnect.png",
         title:"Drive Connect",
         isFinished:true,
-        tags:["React","Express","MongoDB","Typescript","Socket","Google APIs"],
+        tags:["React","Express","MongoDB","Typescript","TailwindCSS","Socket","Google APIs"],
         text:"DriveConnect is a project that seamlessly integrates multiple Google Drive accounts, providing users with a unified storage experience. By connecting multiple Google Drive accounts, DriveConnect offers a single, consolidated storage space, virtually unlimited storage, making file management more efficient and hassle-free.",
         onClickLink:"https://driveconnect.sohamjoshi.in"
     },
@@ -68,7 +68,7 @@ export const ProjectsData : ProjectType[] = [
         image:"/Projects/shorturl.png",
         title:"ShortURL",
         isFinished:true,
-        tags:["Next","Redis","MongoDB"],
+        tags:["Next.js","Redis","MongoDB"],
         text:"Developed ShortURL, a URL shortening service using Next.js for frontend and backend. Enhanced performance with Redis caching and utilized MongoDB for efficient URL storage. Created responsive interfaces with Next.js and styled with CSS for visual appeal.solution for managing and retrieving data swiftly.",
         onClickLink:"https://123short.vercel.app/"
     }

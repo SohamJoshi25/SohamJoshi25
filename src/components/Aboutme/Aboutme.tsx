@@ -87,7 +87,7 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
                     A Full-Stack Developer From Pune, Crafting Responsive And Scalable Websites And Software.
                 </h4>
                 <h4 className="mt-[30px] sm:max-w-[360px] max-w-[280px] min-[575px]:text-[18px] text-[16px] min-[575px]:tracking-wider min-[575px]:leading-[24px] pl-[5px] text-center min-[575px]:text-left ">
-                Worked with technologies like GoLang, Docker,Java, Typescript and Javascript, NodeJS, ExpressJS, ReactJS, TailWindCSS, NextJS, Git, Github, MongoDB, JWT, Redis, PassportJS, ContextAPI and lot more ...
+                Worked with technologies like GoLang, Docker, Java, Typescript, SpringBoot, NodeJS, ExpressJS, ReactJS, TailWindCSS, NextJS, Git, Github, MongoDB, JWT, Redis, PassportJS, ContextAPI and lot more ...
                 </h4>
                 <h4 className="mt-[20px] md:mb-[40px] mb-[30px] min-[575px]:text-[19px] text-[17px] min-[575px]:tracking-wide min-[575px]:leading-[24px] px-[5px] text-center min-[575px]:text-left w-full">Let's Work Together</h4>
                 
