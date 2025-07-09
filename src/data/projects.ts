@@ -12,7 +12,7 @@ export const ProjectsData : ProjectType[] = [
         image:"/Projects/dirvcs.png",
         title:"DIRVCS",
         isFinished:true,
-        tags:["GoLang","PostgreSQL","Docker","Cobra","Viper"],
+        tags:["GoLang","Cobra","Viper"],
         text:"Dirvcs is a command-line version control tool built specifically for directory structures. Unlike Git, it does not track content — instead, it tracks and compares snapshots of your folder hierarchy.",
         onClickLink:"https://dirvcs.sohamjoshi.in"
     },
