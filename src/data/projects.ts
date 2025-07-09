@@ -52,7 +52,7 @@ export const ProjectsData : ProjectType[] = [
         image:"/Projects/farmermarket.png",
         title:"Farmer Market API",
         isFinished:true,
-        tags:["FastAPI","Selenium","PostgreSQL","Web Scrapper"],
+        tags:["FastAPI","PostgreSQL","Web Scrapper"],
         text:"Restful API which exposes a quantity and prices of all local farmer's market products daily by scraping a Government Website (Pune APMC). Database is daily updated using github actions cron job scheduler.",
         onClickLink:"https://github.com/SohamJoshi25/PuneFarmersMarket-API"
     },
