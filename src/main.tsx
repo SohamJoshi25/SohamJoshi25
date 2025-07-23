@@ -9,6 +9,7 @@ import { ToastContainer } from 'react-toastify'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
+    <Analytics />
     <ToastContainer 
     position="top-right"
     autoClose={3000}
@@ -19,7 +20,7 @@ createRoot(document.getElementById('root')!).render(
     draggable
     theme="light"
     style={{ zIndex: 999999999999999 }} />
-    <Analytics />
+
     
   </StrictMode>,
 )
