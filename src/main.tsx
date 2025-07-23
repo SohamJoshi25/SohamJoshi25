@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Analytics } from "@vercel/analytics/next"
 import './index.css'
 import App from './App.tsx'
 
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')!).render(
     draggable
     theme="light"
     style={{ zIndex: 999999999999999 }} />
+    <Analytics />
     
   </StrictMode>,
 )
