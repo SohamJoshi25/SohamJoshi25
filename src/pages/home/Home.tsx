@@ -16,7 +16,7 @@ const Home = () => {
     const ContactRef = useRef<HTMLDivElement>(null);
 
     return (
-        <div className="h-[100vh] overflow-auto bg-[#fcfbf7] customScrollBar">
+        <div className="h-[100vh] overflow-y-auto overflow-x-hidden bg-[#fcfbf7] customScrollBar">
             <Navbar AboutRef={AboutmeRef} ExperienceRef={ExperienceRef} ProjectRef={ProjectRef} ContactRef={ContactRef}/>
             <Aboutme forwardRef={AboutmeRef}/>
             <Experience forwardRef={ExperienceRef}/>

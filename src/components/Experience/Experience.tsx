@@ -14,7 +14,7 @@ const Experience : React.FC<ExperienceType> = ({forwardRef}) => {
     <div className="w-full flex justify-center flex-col items-center pt-[130px] pb-[110px]  bg-gradient-to-r from-[hsl(0,0%,90%)] via-50% via-[hsl(0,0%,89%)] to-[hsl(0,0%,88%)]" ref={forwardRef}>
 
       <div className="mb-[120px] text-gradiant animate-appear-title">
-        <span className="md:text-[68px] text-[58px] noto-sans-450" style={{"fontWeight":"500"}}>Experience</span>
+        <span className="md:text-[4em] text-[3em]  noto-sans-450" style={{"fontWeight":"500"}}>Experience</span>
       </div> 
       
       <div className="flex flex-col justify-center md:gap-y-[90px] gap-y-[90px] md:w-[61%] w-[78%]">

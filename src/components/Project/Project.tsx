@@ -15,7 +15,7 @@ const Project : React.FC<ProjectType> = ({forwardRef}) => {
       <div className="w-full flex justify-center flex-col items-center bg-gradient-to-r from-[hsl(0,0%,13%)] from-80% to-[hsl(0,0%,11%)] text-slate-300 pt-[130px] pb-[110px]" ref={forwardRef}>
   
         <div className="mb-[120px] text-gradiant-dark animate-appear-title">
-          <span className="text-[63px] noto-sans-450" style={{"fontWeight":"500"}}>Projects</span>
+          <span className="md:text-[4em] text-[3em] noto-sans-450" style={{"fontWeight":"500"}}>Projects</span>
         </div> 
         
         <div className="flex flex-col justify-center md:gap-y-[90px] gap-y-[100px] md:w-[61%] w-[78%]">

@@ -38,7 +38,7 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
     //from-[hsl(39,15%,88%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(40,15%,74%)]
 
     return (
-        <div className="flex justify-center relative max-[575px]:items-center bg-gradient-to-r animate-appear from-[hsl(60,2%,84%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(60,3%,79%)] py-[60px] min-[575px]:flex-row flex-col-reverse" ref={forwardRef}>
+        <div className="flex justify-center relative max-[575px]:items-center bg-gradient-to-r animate-appear from-[hsl(60,2%,84%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(60,3%,79%)] py-[60px] min-[575px]:flex-row flex-col-reverse md:px-2 px-0" ref={forwardRef}>
 
             {Dimensions.width > 830 && <div className="flex flex-col relative h-full justify-around ml-5 pt-[10px] gap-[5px] mr-[5px] px-[10px]">
                 <ReactSVG/>
@@ -77,7 +77,7 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
                 
             </div>}
 
-            <div className="z-30 p-[5px] min-[575px]:pl-[20px] min-[575px]:w-[700px] min-[575px]:left-10 relative  pb-[86px]">
+            <div className="z-30 p-[5px] min-[575px]:pl-[20px] min-[575px]:w-[700px] min-[575px]:left-10 relative pb-[86px]">
                 {Dimensions.width>=575 && <div className="lg:text-[54px] md:text-[40px] sm:text-[30px] font-[500] text-[1.5rem] lg:leading-[74px] tracking-wide text-transparent " style={{"fontFamily":"Saira Semi Condensed"}} onMouseEnter={()=>{setIsHovering(true)}} onMouseLeave={()=>{setIsHovering(false)}} >
                     <h1 id="title1" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[hsl(41,51%,25%)] hover:to-[hsl(41,36%,60%)] hover:scale-110 origin-left hover:font-[600] transition-transform`}>FULL STACK DEVELOPER</h1>
                     <h1 id="title2" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[#1f2a5f] hover:to-[#767fbe] hover:scale-110 origin-left hover:font-[600] transition-transform`}>TECH ENTHUSIAST</h1>
