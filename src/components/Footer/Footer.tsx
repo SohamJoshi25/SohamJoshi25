@@ -25,18 +25,18 @@ const copyEmail = ()=>{
 
 const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
   return (
-    <div className='bg-black w-full h-[200px] md:px-[50px] sm:px-[30px] px-[15px] pt-[18px] text-white flex flex-row justify-around'>
+    <div className='bg-black w-full md:h-[200px] h-[150px] md:px-[50px] sm:px-[30px] px-[15px] text-white flex flex-row justify-around pt-4 md:pb-10'>
         
-      <div className="flex flex-col justify-start gap-[15px] py-[12px]">
+      <div className="flex flex-col justify-start gap-[15px] max-h-36">
         <span className='md:text-3xl sm:text-2xl text-xl tracking-wide'>SOHAM JOSHI</span>
-        <div>
-          <p className='md:text-[12px] sm:text-[8px] text-[6px] leading-[18px]'>Designed and developed  with ♡ by me </p>
+        <div className="mt-30px">
+          <p className='md:text-[15px] sm:text-[8px] min-[575px]:text-[10px] text-[6px] leading-[12px]'>Designed and developed  with ♡ by me </p>
         </div>
       </div>
 
-      <div className="flex flex-col md:gap-[40px] gap-[30px] pt-3 max-h-36">
+      <div className="flex flex-col justify-between pt-3 md:max-h-32 min-[575px]:max-h-24 max-h-20">
 
-        <div className="flex flex-row gap-[10px] justify-end items-center md:text-[15px] sm:text-[12px] min-[575px]:text-10px] text-[8px] ">
+        <div className="flex flex-row gap-[10px] justify-end items-center md:text-[15px] sm:text-[8px] min-[575px]:text-[10px] text-[6px] text-nowrap">
           <span className="cursor-pointer" onClick={()=>{scrollToElement(AboutRef)}}>About Me</span>
           <span>·</span>
           <span className="cursor-pointer" onClick={()=>{scrollToElement(ExperienceRef)}}>Experience</span>
@@ -50,8 +50,8 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
           <LinkedIn/>
         </div>
 
-        <div className="flex flex-row gap-[12px] justify-end items-center text-[11px] cursor-pointer" onClick={copyEmail}>
-          <span className="tracking-wider text-[14px]">{Email}</span>
+        <div className="flex flex-row gap-[12px] justify-end items-center md:text-[15px] sm:text-[8px] min-[575px]:text-[10px] text-[6px] cursor-pointer" onClick={copyEmail}>
+          <span className="tracking-wider">{Email}</span>
         </div>
 
       </div>
