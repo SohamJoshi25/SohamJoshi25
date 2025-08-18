@@ -34,7 +34,7 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-between pt-[18px] pb-[34px]">
+      <div className="flex flex-col md:gap-[40px] gap-[30px] pt-3 max-h-36">
 
         <div className="flex flex-row gap-[10px] justify-end items-center md:text-[15px] sm:text-[12px] min-[575px]:text-10px] text-[8px] ">
           <span className="cursor-pointer" onClick={()=>{scrollToElement(AboutRef)}}>About Me</span>
