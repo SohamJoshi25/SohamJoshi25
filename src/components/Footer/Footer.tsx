@@ -28,7 +28,7 @@ const Footer : React.FC<FooterType> = ({AboutRef,ExperienceRef,ProjectRef}) => {
     <div className='bg-black w-full md:h-[200px] h-[150px] md:px-[50px] sm:px-[30px] px-[15px] text-white flex flex-row justify-around pt-4 md:pb-10'>
         
       <div className="flex flex-col justify-start gap-[15px] max-h-36">
-        <span className='md:text-3xl sm:text-2xl text-xl tracking-wide'>SOHAM JOSHI</span>
+        <span className='md:text-3xl sm:text-2xl text-xl tracking-wide mr-2'>SOHAM JOSHI</span>
         <div className="mt-30px">
           <p className='md:text-[15px] sm:text-[8px] min-[575px]:text-[10px] text-[6px] leading-[12px]'>Designed and developed  with ♡ by me </p>
         </div>
