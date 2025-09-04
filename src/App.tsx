@@ -5,8 +5,21 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home.tsx'
 import PageNotFound from './pages/PageNotFound/NotFound.tsx';
 import ResumeRedirect from './components/ResumeRedirect/ResumeRedirect.tsx';
+import { useEffect } from 'react';
+
+
 
 const App = () => {
+  
+  const usePreloadImage = (src: string) => {
+    useEffect(() => {
+      const img = new Image();
+      img.src = src;
+    }, [src]);
+  };
+
+  usePreloadImage("/SohamJoshiPhoto.png");
+
   return (
       <BrowserRouter>
         <Routes>

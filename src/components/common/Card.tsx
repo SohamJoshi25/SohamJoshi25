@@ -24,7 +24,7 @@ export const ExperienceCard : React.FC<CardType> = ({index,experience}) => {
             <h3 className="text-[17px] tracking-wider font-[350] ">{experience?.date} </h3>
 
             {experience?.tags && <div className="flex flex-row gap-x-3 gap-y-2 py-2 text-[13px] mt-[2px] flex-wrap">
-                {experience.tags.map(tag =><span className="px-2 pb-[1px] border border-[hsl(0,0%,11%)] rounded-xl text-nowrap">{tag}</span>)}
+                {experience.tags.map(tag =><span key={tag} className="px-2 pb-[1px] border border-[hsl(0,0%,11%)] rounded-xl text-nowrap">{tag}</span>)}
             </div>}
 
             <p className="mt-[6px] mb-[22px] font-sans min-[575px]:max-w-[400px] text-[14px] leading-[18px]">
@@ -49,7 +49,7 @@ export const ProjectCard : React.FC<CardType> = ({index,project}) => {
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{project?.title}</h4>
         
                 {project?.tags && <div className="flex flex-row gap-x-3 gap-y-2 py-2 text-[13px] mt-[2px] flex-wrap text-[#d3d3d3]">
-                    {project.tags.map(tag =><span className="px-2 pb-[1px] border border-[#d3d3d3] rounded-xl">{tag}</span>)}
+                    {project.tags.map(tag =><span key={tag} className="px-2 pb-[1px] border border-[#d3d3d3] rounded-xl">{tag}</span>)}
                 </div>}
 
                 <p className="mt-[6px] mb-[22px] font-sans min-[575px]:max-w-[400px] text-[14px] leading-[18px]">
