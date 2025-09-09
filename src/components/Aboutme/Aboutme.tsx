@@ -84,10 +84,10 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
                     <h1 id="title3" className={`bg-clip-text bg-gradient-to-r ${isHovering ? "  from-[#979797] to-[#b4b4b4] " : " from-black to-[#252525] "} hover:from-[hsl(295,51%,25%)] hover:to-[hsl(295,36%,60%)] hover:scale-110 origin-left hover:font-[600] transition-transform`}>PROGRAMMER</h1>
                 </div>}
                 <h4 className="mt-[30px] sm:max-w-[360px] max-w-[280px] min-[575px]:text-[19px] text-[17px] min-[575px]:tracking-wider min-[575px]:leading-[24px] pl-[5px] text-center min-[575px]:text-left ">
-                    A Full-Stack Developer From Pune, Crafting Responsive And Scalable Websites And Software.
+                    A Full-Stack Developer From Pune, Crafting Responsive And Scalable Products And Software.
                 </h4>
                 <h4 className="mt-[30px] sm:max-w-[360px] max-w-[280px] min-[575px]:text-[18px] text-[16px] min-[575px]:tracking-wider min-[575px]:leading-[24px] pl-[5px] text-center min-[575px]:text-left ">
-                Worked with technologies like GoLang, Docker, Java, Typescript, SpringBoot, NodeJS, ExpressJS, ReactJS, TailWindCSS, NextJS, Git, Github, MongoDB, JWT, Redis, PassportJS, ContextAPI and lot more ...
+                Actively working with technologies like AWS, Nginx, Docker, Java, Typescript, SpringBoot, ExpressJS, ReactJS, Git, MongoDB, Redis, PostgreSQL, Prometheus, Grafana and lot more ...
                 </h4>
                 <h4 className="mt-[20px] md:mb-[40px] mb-[30px] min-[575px]:text-[19px] text-[17px] min-[575px]:tracking-wide min-[575px]:leading-[24px] px-[5px] text-center min-[575px]:text-left w-full">Let's Work Together</h4>
                 
