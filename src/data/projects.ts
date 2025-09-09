@@ -9,6 +9,14 @@ export type ProjectType = {
 
 export const ProjectsData : ProjectType[] = [
     {
+        image:"/Projects/querynox.png",
+        title:"QueryNox",
+        isFinished:true,
+        tags:["React","Express","MongoDB","Typescript","TanStack Query","AWS EC2","Cloudflare R2","Github Actions","Nginx","Polar","Clerk","Prometheus","Grafana","Loki"],
+        text:"QueryNox is a production-grade, multi-model AI chat platform that unifies access to models like Claude 3.5 Sonnet, GPT, Llama 3.3-70B, Gemini 1.5 Flash, and more. It features real-time web search, document analysis via RAG, and image generation with DALL·E—while delivering enterprise-grade security, monitoring, and scalability.",
+        onClickLink:"https://www.querynox.xyz"
+    },
+    {
         image:"/Projects/dirvcs.png",
         title:"DIRVCS",
         isFinished:true,

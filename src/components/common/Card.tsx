@@ -48,7 +48,7 @@ export const ProjectCard : React.FC<CardType> = ({index,project}) => {
           <div className="pt-1 w-full md:max-w-[460px] md:min-w-[260px]">
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{project?.title}</h4>
         
-                {project?.tags && <div className="flex flex-row gap-x-3 gap-y-2 py-2 text-[13px] mt-[2px] flex-wrap text-[#d3d3d3]">
+                {project?.tags && <div className="flex flex-row gap-x-3 gap-y-2 py-2 text-[13px] mt-[2px] flex-wrap text-[#c3c1c1]">
                     {project.tags.map(tag =><span key={tag} className="px-2 pb-[1px] border border-[#d3d3d3] rounded-xl">{tag}</span>)}
                 </div>}
 
