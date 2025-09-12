@@ -9,7 +9,7 @@ export type ProjectType = {
 
 export const ProjectsData : ProjectType[] = [
     {
-        image:"/Projects/querynox.png",
+        image:"/Projects/querynox.webp",
         title:"QueryNox",
         isFinished:true,
         tags:["React","Express","MongoDB","Typescript","TanStack Query","AWS EC2","Cloudflare R2","Github Actions","Nginx","Polar","Clerk","Prometheus","Grafana","Loki"],
@@ -17,7 +17,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://www.querynox.xyz?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/dirvcs.png",
+        image:"/Projects/dirvcs.webp",
         title:"DIRVCS",
         isFinished:true,
         tags:["GoLang","Cobra","Viper"],
@@ -25,7 +25,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://dirvcs.sohamjoshi.in?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/driveconnect.png",
+        image:"/Projects/driveconnect.webp",
         title:"Drive Connect",
         isFinished:true,
         tags:["React","Express","MongoDB","Typescript","TailwindCSS","Socket","Google APIs"],
@@ -33,7 +33,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://driveconnect.sohamjoshi.in?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/dnsserver.png",
+        image:"/Projects/dnsserverwebp",
         title:"DNS Server CLI",
         isFinished:true,
         tags:["GoLang","PostgreSQL","Docker","Cobra"],
@@ -41,7 +41,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://github.com/SohamJoshi25/dns-server?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/flappybird.png",
+        image:"/Projects/flappybird.webp",
         title:"Flappy Bird",
         isFinished:true,
         tags:["Unity"],
@@ -49,7 +49,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://github.com/SohamJoshi25/FlappyBird?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/keyboard.png",
+        image:"/Projects/keyboard.webp",
         title:"Keyboard Firmware",
         isFinished:true,
         tags:["Hardware","ESP-32","Emedded C"],
@@ -57,7 +57,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://github.com/SohamJoshi25/ESP32Keyboard?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/farmermarket.png",
+        image:"/Projects/farmermarket.webp",
         title:"Farmer Market API",
         isFinished:true,
         tags:["FastAPI","PostgreSQL","Web Scrapper"],
@@ -65,7 +65,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://github.com/SohamJoshi25/PuneFarmersMarket-API?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/oauth.png", 
+        image:"/Projects/oauth.webp", 
         title:"OAuth Microservice",
         isFinished:true,
         tags:["React","Express","MongoDB","Passport.js"],
@@ -73,7 +73,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://github.com/SohamJoshi25/OauthBackend?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/shorturl.png",
+        image:"/Projects/shorturl.webp",
         title:"ShortURL",
         isFinished:true,
         tags:["Next.js","Redis","MongoDB"],

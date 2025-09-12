@@ -18,7 +18,7 @@ const App = () => {
     }, [src]);
   };
 
-  usePreloadImage("/SohamJoshiPhoto.png");
+  usePreloadImage("/SohamJoshiPhoto.webp");
 
   return (
       <BrowserRouter>

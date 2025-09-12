@@ -11,7 +11,7 @@ export type ExperienceType = {
 
 export const ExperienceData : ExperienceType[] = [
     {
-        image:"/Experiences/creatsaurus.png",
+        image:"/Experiences/creatsaurus.webp",
         title:"FULL STACK DEVELOPER",
         subtitle:"Internship | Creatosarous.io",
         date:"Aug 2024 - Jan 2025",
