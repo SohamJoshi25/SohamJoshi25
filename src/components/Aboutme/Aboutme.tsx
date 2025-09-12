@@ -98,7 +98,7 @@ const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
             </div>
 
             <div className="overflow-clip lg:w-[580px] md:w-[500px] sm:w-[380px] w-[280px] relative md:right-10 max-[575px]:mt-[20px] flex-shrink-0 ml-[30px]">
-                <img src="SohamJoshiPhoto.webp" alt="" className="block -rotate-3 w-full min-w-full " style={{"filter":"saturate(0.2) contrast(1.6) brightness(0.95)"}} />
+                <img src="SohamJoshiPhoto.webp" alt="SohamJoshiProfilePage" className="block -rotate-3 w-full min-w-full " style={{"filter":"saturate(0.2) contrast(1.6) brightness(0.95)"}} />
             </div>
 
             {Dimensions.width<575 && <div className="lg:text-[58px] md:text-[40px] sm:text-[34px] text-[32px] w-fit font-[500] text-gradiant lg:leading-[74px] text-center min-[575px]:text-left">

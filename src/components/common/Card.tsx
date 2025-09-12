@@ -16,7 +16,7 @@ export const ExperienceCard : React.FC<CardType> = ({index,experience}) => {
   return (
         <div className={`flex justify-center py-10 md:items-start w-full w-min-[900px] gap-x-[20px] gap-y-[10px] md:px-12 sm:px-8 xs:px-2  ${index%2==0?"md:flex-row-reverse animate-left":"md:flex-row animate-right"} flex-col`}>
           <div className="w-full md:max-w-[460px] md:min-w-[260px]">
-            <img src={experience?.image}  alt="" className="rounded-[5px] w-[460px] shadow-[0_0px_10px_2px_rgb(0_0_0/20%)]" />
+            <img src={experience?.image}  alt="ExperienceCard" className="rounded-[5px] w-[460px] shadow-[0_0px_10px_2px_rgb(0_0_0/20%)]" />
         </div>
         <div className="pt-1 w-full md:max-w-[460px] md:min-w-[260px]">
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{experience?.title} </h4>
@@ -43,7 +43,7 @@ export const ProjectCard : React.FC<CardType> = ({index,project}) => {
     return (
         <div className={`flex justify-center py-10 md:items-start w-full w-min-[900px] gap-x-[20px] gap-y-[10px] md:px-12 sm:px-8 xs:px-2 ${index%2==0?"md:flex-row-reverse animate-left":"md:flex-row animate-right"} flex-col`}>
           <div className="w-full md:max-w-[460px] md:min-w-[260px]">
-              <img src={project?.image} alt="" className="rounded-[5px] w-[460px] shadow-[#DADADA30] shadow-[0_0px_10px_0]" />
+              <img src={project?.image} alt="ProjectCard" className="rounded-[5px] w-[460px] shadow-[#DADADA30] shadow-[0_0px_10px_0]" />
           </div>
           <div className="pt-1 w-full md:max-w-[460px] md:min-w-[260px]">
             <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">{project?.title}</h4>
