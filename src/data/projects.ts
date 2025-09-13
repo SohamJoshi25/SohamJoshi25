@@ -33,7 +33,7 @@ export const ProjectsData : ProjectType[] = [
         onClickLink:"https://driveconnect.sohamjoshi.in?utm_source=sohamjoshi.in&utm_medium=portfolio"
     },
     {
-        image:"/Projects/dnsserverwebp",
+        image:"/Projects/dnsserver.webp",
         title:"DNS Server CLI",
         isFinished:true,
         tags:["GoLang","PostgreSQL","Docker","Cobra"],
