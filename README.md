@@ -23,3 +23,5 @@ Feel free to explore my repositories and dive into my various projects. I'm alwa
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SohamJoshi25&layout=compact&theme=dark&langs_count=10&hide=html,css,ShaderLab,Jupyter%20Notebook" height="200"/>
 
 </div>
+
+![](https://hit.yhype.me/github/profile?account_id=103235401)
