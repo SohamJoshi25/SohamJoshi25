@@ -4,14 +4,9 @@ import { ExperienceCard } from "../common/Card"
 //Data
 import { ExperienceData } from "../../data/experiences"
 
-
-type ExperienceType = {
-  forwardRef:React.RefObject<HTMLDivElement>
-}
-
-const Experience : React.FC<ExperienceType> = ({forwardRef}) => {
+const Experience : React.FC= () => {
   return (
-    <div className="w-full flex justify-center flex-col items-center pt-[130px] pb-[110px]  bg-gradient-to-r from-[hsl(0,0%,90%)] via-50% via-[hsl(0,0%,89%)] to-[hsl(0,0%,88%)]" ref={forwardRef}>
+    <div className="w-full flex justify-center flex-col items-center pt-[130px] pb-[110px]  bg-gradient-to-r from-[hsl(0,0%,90%)] via-50% via-[hsl(0,0%,89%)] to-[hsl(0,0%,88%)]" id="experience">
 
       <div className="mb-[120px] text-gradiant animate-appear-title">
         <span className="md:text-[4em] text-[3em]  noto-sans-450" style={{"fontWeight":"500"}}>Experience</span>

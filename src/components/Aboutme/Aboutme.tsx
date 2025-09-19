@@ -26,19 +26,14 @@ import { Github } from "../../data/constants"
 //import RustSVG from "./components/RustSVG"
 import GoSVG from "./components/GoSVG"
 
-
-type AboutmeType = {
-    forwardRef:React.RefObject<HTMLDivElement>
-}
-
-const Aboutme : React.FC<AboutmeType> = ({forwardRef}) => {
+const Aboutme : React.FC= () => {
 
     const Dimensions = useWindowDimensions();
     const [isHovering, setIsHovering] = useState<boolean>(false);
     //from-[hsl(39,15%,88%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(40,15%,74%)]
 
     return (
-        <div className="flex justify-center relative max-[575px]:items-center bg-gradient-to-r animate-appear from-[hsl(60,2%,84%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(60,3%,79%)] py-[60px] min-[575px]:flex-row flex-col-reverse md:px-2 px-0" ref={forwardRef}>
+        <div className="flex justify-center relative max-[575px]:items-center bg-gradient-to-r animate-appear from-[hsl(60,2%,84%)] via-60% via-[hsl(40,6%,83%)] to-[hsl(60,3%,79%)] py-[60px] min-[575px]:flex-row flex-col-reverse md:px-2 px-0" id="aboutme">
 
             {Dimensions.width > 830 && <div className="flex flex-col relative h-full justify-around ml-5 pt-[10px] gap-[5px] mr-[5px] px-[10px]">
                 <ReactSVG/>

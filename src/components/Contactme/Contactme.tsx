@@ -6,11 +6,7 @@ import Button from "../common/Button"
 import sendEmail from "./utils/EmailSender"
 import { toast } from "react-toastify"
 
-type ContactType = {
-  forwardRef:React.RefObject<HTMLDivElement>
-}
-
-const Contactme : React.FC<ContactType> = ({forwardRef}) => {
+const Contactme : React.FC = () => {
 
     const [name,setName] = useState("")
     const [contact, setContact] = useState("")
@@ -42,7 +38,7 @@ const Contactme : React.FC<ContactType> = ({forwardRef}) => {
     }
 
   return (
-    <div className="w-full flex justify-center flex-col items-center pt-[100px] pb-[70px] bg-gradient-to-r from-[hsl(0,0%,90%)] via-50% via-[hsl(0,0%,89%)] to-[hsl(0,0%,88%)]" ref={forwardRef}>
+    <div className="w-full flex justify-center flex-col items-center pt-[100px] pb-[70px] bg-gradient-to-r from-[hsl(0,0%,90%)] via-50% via-[hsl(0,0%,89%)] to-[hsl(0,0%,88%)]" id="contact">
 
       <div className="mb-[90px] px-10 text-gradiant m-auto w-full text-center animate-appear-title">
         <span className="lg:text-[62px] text-[42px] noto-sans-450 " style={{"fontWeight":"500"}}>CONTACT ME</span>

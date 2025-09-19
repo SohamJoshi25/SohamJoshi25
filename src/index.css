@@ -35,17 +35,17 @@
   
 
 /* width */
-.customScrollBar::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 10px;
   }
   
 /* Track */
-.customScrollBar::-webkit-scrollbar-track {
-    background:"#E6E6E6";
+*::-webkit-scrollbar-track {
+    background:#E1E1E1;
 }
 
 /* Handle */
-.customScrollBar::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background: #2C2C2C;
     border-radius:4px;
 }

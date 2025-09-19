@@ -5,25 +5,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home.tsx'
 import PageNotFound from './pages/PageNotFound/NotFound.tsx';
 import ResumeRedirect from './components/ResumeRedirect/ResumeRedirect.tsx';
-import { useEffect } from 'react';
-
+import Projects from './pages/projects/Projects.tsx';
 
 
 const App = () => {
-  
-  const usePreloadImage = (src: string) => {
-    useEffect(() => {
-      const img = new Image();
-      img.src = src;
-    }, [src]);
-  };
-
-  usePreloadImage("/SohamJoshiPhoto.webp");
-
   return (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route  path="/projects" element={<Projects />} />
           <Route  path="/resume" element={<ResumeRedirect />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
