@@ -78,6 +78,6 @@ export const ProjectsData : ProjectType[] = [
         isFinished:true,
         tags:["Next.js","Redis","MongoDB"],
         text:"Developed ShortURL, a URL shortening service using Next.js for frontend and backend. Enhanced performance with Redis caching and utilized MongoDB for efficient URL storage. Created responsive interfaces with Next.js and styled with CSS for visual appeal.solution for managing and retrieving data swiftly.",
-        onClickLink:"https://123short.vercel.app?utm_source=sohamjoshi.in&utm_medium=portfolio"
+        onClickLink:"https://shorturl.sohamjoshi.in?utm_source=sohamjoshi.in&utm_medium=portfolio"
     }
 ];
