@@ -4,6 +4,7 @@ export type ProjectType = {
     isFinished:boolean,
     tags:string[],
     text:string,
+    onClickText?:string,
     onClickLink:string,
 }
 

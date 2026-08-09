@@ -31,7 +31,7 @@ export const ExperienceCard : React.FC<CardType> = ({index,experience}) => {
                 {experience?.text}    
             </p>
             <div className="w-full m-auto">
-                <Button Text={"View My Work"} Style={"w-fit  max-[575px]:m-auto"} href={experience?.onClickLink}/>
+                <Button Text={experience?.onClickText ?? "View My Work"} Style={"w-fit  max-[575px]:m-auto"} href={experience?.onClickLink}/>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@ export const ProjectCard : React.FC<CardType> = ({index,project}) => {
                 </p>
   
                 <div className="w-full m-auto">
-                    <Button Text={"View Project"} Style={"w-fit max-[575px]:m-auto border border-[1.8px]"} href={project?.onClickLink} />
+                    <Button Text={project?.onClickText ?? "View Project"} Style={"w-fit max-[575px]:m-auto border border-[1.8px]"} href={project?.onClickLink} />
                 </div>
           </div>
       </div>
