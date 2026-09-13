@@ -5,7 +5,7 @@ import { ProjectCard } from "../common/Card"
 import { ProjectsData } from "../../data/projects"
 import { ExperienceData } from "../../data/experiences"
 import { useNavigate } from "react-router-dom"
-import ViewMore from "./assets/ViewMore"
+import ViewMore from "../common/assets/ViewMore"
 
 type ProjectType = {
     limit?:number,

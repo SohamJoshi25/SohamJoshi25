@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 
 type NavbarType<> = {
     About?:string,
+    Blogs?: string,
     Experience?: string,
     Project?:string,
     Contact?:string,
@@ -17,7 +18,7 @@ type NavbarType<> = {
     classname?:string
 }
 
-const Navbar : React.FC<NavbarType> = ({About,Experience,Project,Contact,theme, classname}) => {
+const Navbar : React.FC<NavbarType> = ({About,Blogs,Experience,Project,Contact,theme,classname}) => {
 
   const Dimensions = useWindowDimensions();
   const navigate = useNavigate();
@@ -38,19 +39,25 @@ const Navbar : React.FC<NavbarType> = ({About,Experience,Project,Contact,theme, 
         </div>
         <div className="flex flex-row justify-between items-end lg:gap-x-[44px] md:gap-x-[28px] sm:gap-x-[22px] gap-x-[18px] lg:text-[16px] md:text-[14px] sm:text-[12px] text-[10px] font-[450]">
 
-            {Dimensions.width>Breakpoint && <div className={`group cursor-pointer mt-[10px]  ${theme == "light" ? "hover:text-[#3D3D3D]" : theme == "black" ?  "hover:text-[#E0E0E0]" : "hover:text-white " }`} onClick={()=>{scrollToElement(About)}}>
+            {!!Blogs && Dimensions.width>Breakpoint && <div className={`group cursor-pointer mt-[10px]  ${theme == "light" ? "hover:text-[#3D3D3D]" : theme == "black" ?  "hover:text-[#E0E0E0]" : "hover:text-white " }`} onClick={()=>{scrollToElement(Blogs)}}>
+                <span>Blogs</span>
+                <div className={`relative w-full h-[2px]  ${theme == "light" ? "bg-[#3D3D3D]" : "bg-[#E0E0E0]" }  rounded-full right-[3px] top-[2px]`}></div>
+                <div className={`relative w-[108%] h-[4px] ${theme == "light" ? "bg-[#E0E0E0]" : theme == "black" ?  "bg-[#1b1b1b]" : "bg-[#3D3D3D]" }   rounded-full right-[5px] top-[-1px] transition-all duration-500 group-hover:translate-x-[200px]`}></div>
+            </div>}
+
+            {!!About && Dimensions.width>Breakpoint && <div className={`group cursor-pointer mt-[10px]  ${theme == "light" ? "hover:text-[#3D3D3D]" : theme == "black" ?  "hover:text-[#E0E0E0]" : "hover:text-white " }`} onClick={()=>{scrollToElement(About)}}>
                 <span>About Me</span>
                 <div className={`relative w-full h-[2px]  ${theme == "light" ? "bg-[#3D3D3D]" : "bg-[#E0E0E0]" }  rounded-full right-[3px] top-[2px]`}></div>
                 <div className={`relative w-[108%] h-[4px] ${theme == "light" ? "bg-[#E0E0E0]" : theme == "black" ?  "bg-[#1b1b1b]" : "bg-[#3D3D3D]" }   rounded-full right-[5px] top-[-1px] transition-all duration-500 group-hover:translate-x-[200px]`}></div>
             </div>}
 
-            {Dimensions.width>Breakpoint && <div className={`group cursor-pointer mt-[10px]  ${theme == "light" ? "hover:text-[#3D3D3D]" : theme == "black" ?  "hover:text-[#E0E0E0]" : "hover:text-white " }`} onClick={()=>{scrollToElement(Experience)}}>
+            {!!Experience && Dimensions.width>Breakpoint && <div className={`group cursor-pointer mt-[10px]  ${theme == "light" ? "hover:text-[#3D3D3D]" : theme == "black" ?  "hover:text-[#E0E0E0]" : "hover:text-white " }`} onClick={()=>{scrollToElement(Experience)}}>
                 <span>Experience</span>
                 <div className={`relative w-full h-[2px]  ${theme == "light" ? "bg-[#3D3D3D]" : "bg-[#E0E0E0]" }  rounded-full right-[3px] top-[2px]`}></div>
                 <div className={`relative w-[108%] h-[4px] ${theme == "light" ? "bg-[#E0E0E0]" : theme == "black" ?  "bg-[#1b1b1b]" : "bg-[#3D3D3D]" }   rounded-full right-[5px] top-[-1px] transition-all duration-500 group-hover:translate-x-[200px]`}></div>
             </div>}
 
-            {Dimensions.width>Breakpoint && <div className={`group cursor-pointer mt-[10px]  ${theme == "light" ? "hover:text-[#3D3D3D]" : theme == "black" ?  "hover:text-[#E0E0E0]" : "hover:text-white " }`} onClick={()=>{scrollToElement(Project)}}>
+            {!!Project && Dimensions.width>Breakpoint && <div className={`group cursor-pointer mt-[10px]  ${theme == "light" ? "hover:text-[#3D3D3D]" : theme == "black" ?  "hover:text-[#E0E0E0]" : "hover:text-white " }`} onClick={()=>{scrollToElement(Project)}}>
                 <span>Projects</span>
                 <div className={`relative w-full h-[2px]  ${theme == "light" ? "bg-[#3D3D3D]" : "bg-[#E0E0E0]" }  rounded-full right-[3px] top-[2px]`}></div>
                 <div className={`relative w-[108%] h-[4px] ${theme == "light" ? "bg-[#E0E0E0]" : theme == "black" ?  "bg-[#1b1b1b]" : "bg-[#3D3D3D]" } rounded-full right-[5px] top-[-1px] transition-all duration-500 group-hover:translate-x-[200px]`}></div>

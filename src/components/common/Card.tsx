@@ -4,12 +4,13 @@ import Button from "./Button"
 //Type
 import { ProjectType } from "../../data/projects"
 import { ExperienceType } from "../../data/experiences"
-
+import { BlogType } from "../../data/blogs"
 
 type CardType = {
     index:number,
     project?: ProjectType,
-    experience?:ExperienceType
+    experience?:ExperienceType,
+    blog?: BlogType
 }
 
 export const ExperienceCard : React.FC<CardType> = ({index,experience}) => {
@@ -63,3 +64,37 @@ export const ProjectCard : React.FC<CardType> = ({index,project}) => {
       </div>
     )
   }
+
+export const BlogCard : React.FC<CardType> = ({index,blog}) => {
+
+    if(!blog) return null;
+
+    return (
+        <div className={`flex justify-center py-10 md:items-start w-full gap-x-[20px] gap-y-[10px] md:px-12 sm:px-8 xs:px-2 ${index%2==0?"md:flex-row-reverse animate-left":"md:flex-row animate-right"} flex-col`} id={blog.slug}>
+            <div className="w-full md:max-w-[460px] md:min-w-[260px]">
+                {blog.coverImage && <img src={blog.coverImage} alt="BlogCard" className="rounded-[5px] w-[460px] shadow-[#DADADA30] shadow-[0_0px_10px_0]" />}
+            </div>
+            <div className="pt-1 w-full md:max-w-[460px] md:min-w-[260px]">
+                <h4 className="min-[575px]:text-[36px] text-[34px] font-semibold leading-[44px]">
+                    {blog.title}
+                </h4>
+
+                {blog.tags && <div className="flex flex-row gap-x-3 gap-y-2 py-2 text-[13px] mt-[2px] flex-wrap text-[#c3c1c1]">
+                    {blog.tags.map(tag => <span key={tag} className="px-2 pb-[1px] border border-[#d3d3d3] rounded-xl">{tag}</span>)}
+                </div>}
+
+                <p className="mt-[6px] mb-[22px] font-sans min-[575px]:max-w-[400px] text-[14px] leading-[18px]">
+                    {blog.description}
+                </p>
+
+                <div className="w-full m-auto">
+                    <Button
+                        Text="Read Blog"
+                        Style="w-fit max-[575px]:m-auto border border-[1.8px]"
+                        href={`/blogs/${blog.slug}`}
+                    />
+                </div>
+            </div>
+        </div>
+    )
+}
